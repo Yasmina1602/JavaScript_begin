@@ -27,8 +27,8 @@ let person_3 = new Person('Gulandom', 26, true);
 let person_4 = new Person('Masxaraboz', 20, false);
 
 let peopleArray = [person_1, person_2, person_3, person_4];
-
-let foundIndex = Find('Masxaraboz', peopleArray);
+let foundName = 'Masxaraboz';
+let foundIndex = Find(foundName, peopleArray);
 
 function Find(name, peopleArray) {
   for (let i = 0; i < peopleArray.length; i++) {
@@ -39,4 +39,4 @@ function Find(name, peopleArray) {
   return -1; 
 }
 
-console.log("\n", peopleArray [foundIndex], "\n" ); 
+console.log("\n ", foundName , " topildi - > ", peopleArray [foundIndex], "\n" ); 
