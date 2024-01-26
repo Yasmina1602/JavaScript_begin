@@ -16,7 +16,7 @@ function bubbleSort( arr ){
     return arr;
 }
 
-const array = [ 10,4,5,90,45,560 ];
+const array = [ 10, 4, 5, 90, 45, 560 ];
 
 console.log( '\n before -> ', array );
 console.log( '\n after -> ', bubbleSort( array ));
